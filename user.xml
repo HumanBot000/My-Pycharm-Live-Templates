@@ -1,4 +1,4 @@
-<templateSet group="user">
+<templateSet group="imported">
   <template name="class" value="class $class$($object$):&#10;    &#10;    def __init__(self, $args$):&#10;        $END$&#10;    &#10;" description="Python Class Template" toReformat="false" toShortenFQNames="true">
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="object" expression="" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
@@ -466,3 +466,4 @@
     </context>
   </template>
 </templateSet>
+
